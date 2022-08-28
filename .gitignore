@@ -1,0 +1,8 @@
+/tmp/
+/scratch/
+/classes/
+/VERSION
+/BUILD
+/out/
+/jardeps-install.mk
+/jardeps-install.sh

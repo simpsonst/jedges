@@ -1,0 +1,40 @@
+<body>
+  The input polygon is known to be made of several adjacent polygons,
+  possibly in a regular pattern, e.g., a grid of squares, some of
+  which form the compound polygon.  Knowing how all element polygons
+  share edges, which edges follow on from other edges, and whether two
+  edges are parallel, anti-parallel, or neither, a multisegmented path
+  can be followed such that, when filled with an even-odd fill rule,
+  the compound polygon is drawn.  This library computes efficient
+  (though not necessarily optimum) paths from that data.
+
+  <p>
+    Multicoloured grids are also supported.  Each colour forms one or
+    more polygons, each being traced separately, and overlayed.  This
+    overlaying can be exploited to simplify paths on lower layers,
+    where upper layers are expected to cover the unnecessary portions
+    of the lower layers that achieve path simplicity.
+
+  <p>
+    Element polygons may take any form, but rectangular grids are
+    directly supported.
+
+  <p>
+    As a bonus, there is also some code for computing Voronoi cells.
+    I might not keep them here.
+
+  <p>
+    <a href="https://www.lancaster.ac.uk/~simpsons/software/pkg-edges">Get
+      the software</a>
+  </p>
+  
+  @title Edge Tracing
+
+  @resume A library to trace around compound polygons
+
+  @pname simpsons Steven Simpson
+
+  @plink simpsons https://github.com/simpsonst/
+
+  @pdesc simpsons
+</body>
